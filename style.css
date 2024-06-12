@@ -12,11 +12,11 @@ body{
     align-items: center;
 }
 
-.mainBox{
+#mainBox{
     background-color: hsl(0, 0%, 100%);
     margin-top: 50px;
-    width: 350px;
-    height: 470px;
+    width: 311px;
+    height: 429px;
     border: 1px solid black;
     box-shadow: 9px 9px black;    
     border-radius: 20px ;
@@ -24,10 +24,10 @@ body{
 
 #imageset{
     display: block;
-    margin-left: auto;
+    margin-left: 25px;
     margin-right: auto;
     margin-top: 20px;
-    width: 300px;
+    width: 262px;
     border: 1px solid transparent;
     border-radius: 13px;
     position: relative;
@@ -35,5 +35,56 @@ body{
 
 .textDiv{
     font-family: "Figtree";
-    width: 290px;
+    width: 264px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+#yellowBold{
+    font-size: 13px;
+    font-weight:bolder;
+    background-color:hsl(47, 88%, 63%) ;
+    width: 70px;
+    height: 22px;
+    text-align: center;
+    padding-top: 8px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+#dateText{
+    padding:12px 0px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#headText:hover{
+    color: hsl(47, 88%, 63%);
+}
+
+#headText{
+    font-weight: 900;
+    font-size: 20px;
+}
+
+#subText{
+    padding-top: 20px ;
+    font-weight: 500;
+    font-size: 13px;
+    color: hsl(0, 0%, 50%); 
+    font-stretch: expanded;
+    line-height: 18px;
+}
+
+#bottom{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+#bottomText{
+    font-size: 12px;
+    font-weight: bolder;
 }

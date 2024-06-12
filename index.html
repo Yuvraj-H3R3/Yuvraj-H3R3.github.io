@@ -8,16 +8,30 @@
   <title>Frontend Mentor | Blog preview card</title>
 </head>
 <body>
-  <div role="cell" class="mainBox">
+  <div role="cell" id="mainBox">
     <img id="imageset" src="/assets/images/illustration-article.svg" alt="">
     <br>
     <div class="textDiv">
-      Learning <br>
-      Published 21 Dec 2023 <br>
-      HTML & CSS foundations <br>
-      These languages are the backbone of every <br> website, defining structure, content, and <br> presentation. <br>
-      <img src="./assets/images/favicon-32x32.png" alt=""> Greg Hooper
+      <div id="yellowBold">
+        Learning <br>
+      </div>
+      <div id="dateText">Published 21 Dec 2023 <br></div>
+      <div onmouseover="chbg()" onmouseout="chbg1()" id="headText">HTML & CSS foundations <br></div>
+      <div id="subText">These languages are the backbone of every <br> website, defining structure, content, and <br> presentation. <br></div>
+      <div id="bottom"><img src="./assets/images/favicon-32x32.png" alt=""> <div id="bottomText">Greg Hooper</div></div>
     </div>
   </div>
+  <script>
+    function chbg(){
+      let element = document.getElementById('mainBox');
+      element.style.boxShadow = '12px 12px black';
+    }
+
+    function chbg1(){
+      let element = document.getElementById('mainBox');
+      element.style.boxShadow = '9px 9px black';
+    }
+
+  </script>
 </body>
 </html>

@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/Yuvraj-H3R3/Yuvraj-H3R3.github.io.git)
-- Live Site URL: [Add live site URL here](https://yuvraj-h3r3.github.io/)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
 

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | Social links profile</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div id="mainBox">
+    <img id="imageSet" src="assets/images/favicon-32x32.png" alt=""><br>
+    <div id="textDiv">
+      <div id="nameHead">Jessica Randall <br></div>
+      <div id="placeHead">London, United Kingdom <br></div>
+      <div id="despHead">"Front-end developer and avid reader." <br></div>
+
+      <div id="buttons">
+        <div onmouseover="chbg(0)" onmouseout="revbg(0)" class="button">GitHub <br></div>
+        <div onmouseover="chbg(1)" onmouseout="revbg(1)" class="button">Frontend Mentor <br></div>
+        <div onmouseover="chbg(2)" onmouseout="revbg(2)" class="button">LinkedIn <br></div>
+        <div onmouseover="chbg(3)" onmouseout="revbg(3)" class="button">Twitter <br></div>
+        <div onmouseover="chbg(4)" onmouseout="revbg(4)" class="button">Instagram <br></div>
+      </div>
+    </div>
+  </div>
+  <script>
+    let element = document.getElementsByClassName('button');
+    var i;
+    function chbg(i) {
+      element[i].style.backgroundColor = "hsl(75, 94%, 57%)";
+      element[i].style.color = 'hsl(0, 0%, 12%)';
+
+    }
+
+    function revbg(j) {
+      element[j].style.backgroundColor = "hsl(0, 0%, 20%)";
+      element[j].style.color = 'white';
+    }
+
+  </script>
+</body>
+
+</html>
